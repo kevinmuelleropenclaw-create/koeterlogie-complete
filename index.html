@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home - Köterlogie - Hundetrainerin</title>
+<meta name="description" content="Köterlogie - Hunde verstehen, erziehen, trainieren. Mobile Hundeschule von Sonja Müller in Lohmar, Rhein-Sieg-Kreis.">
+<link rel="icon" type="image/png" href="https://koeterlogie.de/wp-content/uploads/2022/07/Web-Favicon-16x16px-11.png">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:#333333;background:#f8f6f0;line-height:1.7}
+a{color:#8B6914;text-decoration:none;transition:color .2s}
+a:hover{color:#2c3e50}
+img{max-width:100%;height:auto;border-radius:8px}
+.header{background:#ffffff;box-shadow:0 2px 20px rgba(0,0,0,.08);position:sticky;top:0;z-index:100}
+.header-inner{max-width:1200px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:12px;font-size:1.5em;font-weight:700;color:#2c3e50}
+.logo img{height:50px;border-radius:0}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{padding:8px 16px;border-radius:6px;font-size:.9em;font-weight:500;color:#2c3e50;transition:all .2s}
+nav a:hover{background:#e8e4dc;color:#8B6914}
+.hero{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);color:#fff;padding:80px 24px;text-align:center}
+.hero h1{font-size:2.5em;margin-bottom:16px;font-weight:300;letter-spacing:1px}
+.hero p{font-size:1.15em;opacity:.9;max-width:700px;margin:0 auto}
+.hero .subtitle{font-size:1.3em;color:#8B6914;font-weight:600;margin-bottom:8px}
+.container{max-width:900px;margin:0 auto;padding:48px 24px}
+.container h2{font-size:1.8em;color:#2c3e50;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e8e4dc}
+.container h3{font-size:1.3em;color:#8B6914;margin:24px 0 12px}
+.container h4{font-size:1.1em;color:#2c3e50;margin:20px 0 10px}
+.container p{margin-bottom:16px}
+.container ul,.container ol{margin:0 0 16px 24px}
+.container li{margin-bottom:8px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin:32px 0}
+.card{background:#ffffff;border-radius:12px;padding:28px;box-shadow:0 4px 15px rgba(0,0,0,.06);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(0,0,0,.1)}
+.card h3{color:#8B6914;margin-top:0;font-size:1.15em}
+.card p{font-size:.95em;color:#555}
+.btn{display:inline-block;background:#8B6914;color:#fff;padding:12px 28px;border-radius:8px;font-weight:600;transition:all .2s;margin:8px 4px}
+.btn:hover{background:#2c3e50;color:#fff;transform:translateY(-1px)}
+.breadcrumb{font-size:.85em;color:#888;margin-bottom:24px}
+.breadcrumb a{color:#888}
+.breadcrumb a:hover{color:#8B6914}
+.footer{background:#1a1a2e;color:rgba(255,255,255,.7);padding:48px 24px;text-align:center;font-size:.9em}
+.footer a{color:#8B6914}
+.footer .footer-links{margin:16px 0;display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
+.price-table{width:100%;border-collapse:collapse;margin:24px 0;background:#ffffff;border-radius:12px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,.06)}
+.price-table th{background:#2c3e50;color:#fff;padding:14px 18px;text-align:left;font-weight:600}
+.price-table td{padding:14px 18px;border-bottom:1px solid #e8e4dc}
+.price-table tr:last-child td{border-bottom:none}
+.price-table .price{font-weight:700;color:#8B6914;white-space:nowrap}
+.review{background:#ffffff;border-left:4px solid #8B6914;padding:20px 24px;margin:16px 0;border-radius:0 8px 8px 0;font-style:italic;color:#555}
+.hamburger{display:none;background:none;border:none;font-size:1.5em;cursor:pointer;padding:8px}
+@media(max-width:768px){
+nav{display:none;position:absolute;top:100%;left:0;right:0;background:#ffffff;flex-direction:column;padding:16px;box-shadow:0 8px 20px rgba(0,0,0,.1)}
+nav.open{display:flex}
+.hamburger{display:block}
+.hero h1{font-size:1.8em}
+.hero{padding:48px 24px}
+}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="header-inner">
+<a href="/koeterlogie-complete/koeterlogie-complete/" class="logo">
+<img src="https://koeterlogie.de/wp-content/uploads/2022/07/Koeterlogie-Logo-nebeneinander-schmal.png" alt="Köterlogie Logo">
+</a>
+<button class="hamburger" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menü">☰</button>
+<nav>
+<a href="/koeterlogie-complete/koeterlogie-complete/">Start</a>
+<a href="/koeterlogie-complete/koeterlogie-complete/angebot/">Angebot</a>
+<a href="/koeterlogie-complete/koeterlogie-complete/spezial/">Spezial</a>
+<a href="/koeterlogie-complete/koeterlogie-complete/ueber-mich/">Über mich</a>
+<a href="/koeterlogie-complete/koeterlogie-complete/news/preisliste/">Preise</a>
+<a href="/koeterlogie-complete/koeterlogie-complete/impressum/">Kontakt</a>
+</nav>
+</div>
+</header>
+
+<div class="hero">
+<div class="subtitle">KÖTERLOGIE®</div>
+<h1>Hunde verstehen, erziehen, trainieren</h1>
+<p>Nach diesem Prinzip biete ich Ihnen individuelles Hundetraining in Form von effektivem Einzeltraining und eine mobile Hundeschule mit diversen Angeboten zur Erziehung von Hunden aller Rassen und Altersklassen.</p>
+<div style="margin-top:32px">
+<a href="/koeterlogie-complete/koeterlogie-complete/angebot/" class="btn">Angebote entdecken</a>
+<a href="/koeterlogie-complete/koeterlogie-complete/ueber-mich/" class="btn" style="background:transparent;border:2px solid #8B6914">Über mich</a>
+</div>
+</div>
+<div class="container">
+<p>Mein Coaching für Mensch &amp; Hund gestalte ich dabei stets alltagsnah und alltagstauglich, denn im Alltag sollen Sie es später eigenständig umsetzen können. Gerne nehme ich Sie zudem mit auf abwechslungs- und lehrreiche Social Walks und biete Ihrem Hund Freilauf und Interaktion mit anderen Hunden zur Schulung seiner sozialen Kompetenzen.</p>
+<p>Ziel ist es immer, Verständnis für die Bedürfnisse Ihres Hundes zu wecken und Ihnen sowohl in der Hundeerziehung als auch im Training artgerechte Wege und Strategien im Umgang mit Ihrem Hund aufzuzeigen.</p>
+<p>Ich helfe Ihnen dabei, sinnvolles und nachhaltiges Training zu etablieren und verhelfe Ihnen und Ihrem Hund zu einer respektvollen und stabilen Mensch-Hund-Beziehung.</p>
+<p><strong>Ich freue mich darauf Sie und Ihren Hund kennenzulernen!</strong></p>
+
+<div class="card-grid">
+<div class="card">
+<h3>🐕 Einzeltraining</h3>
+<p>Individuelles, effektives Training – ganz auf Sie und Ihren Hund abgestimmt. Ideal bei Verhaltensproblemen oder gezieltem Aufbau.</p>
+<a href="/koeterlogie-complete/koeterlogie-complete/news/aktuelle-kurse/individuelles-einzeltraining/" class="btn" style="font-size:.85em;padding:8px 20px">Mehr erfahren</a>
+</div>
+<div class="card">
+<h3>🐾 Social Walk</h3>
+<p>Moderierter Trainingsspaziergang in der Gruppe – für soziale Kompetenzen und entspanntes Miteinander.</p>
+<a href="/koeterlogie-complete/koeterlogie-complete/news/aktuelle-kurse/social-walk/" class="btn" style="font-size:.85em;padding:8px 20px">Mehr erfahren</a>
+</div>
+<div class="card">
+<h3>🐶 Welpen & Junghunde</h3>
+<p>Frech, wild, wunderbar! Individuelle Begleitung vom Welpen zum souveränen Alltagsbegleiter.</p>
+<a href="/koeterlogie-complete/koeterlogie-complete/news/aktuelle-kurse/welpenjunghunde/" class="btn" style="font-size:.85em;padding:8px 20px">Mehr erfahren</a>
+</div>
+<div class="card">
+<h3>💛 Angsthund-Kurs</h3>
+<p>Nur Mut! Spezieller Kurs für ängstliche und unsichere Hunde – mit viel Einfühlungsvermögen.</p>
+<a href="/koeterlogie-complete/koeterlogie-complete/news/aktuelle-kurse/angsthund-kurs/" class="btn" style="font-size:.85em;padding:8px 20px">Mehr erfahren</a>
+</div>
+<div class="card">
+<h3>🏃 Freilauf</h3>
+<p>Kontrollierte Sozialkontakt-Stunde auf eingezäunter Fläche – hündische Kommunikation verstehen.</p>
+<a href="/koeterlogie-complete/koeterlogie-complete/news/aktuelle-kurse/freilauf/" class="btn" style="font-size:.85em;padding:8px 20px">Mehr erfahren</a>
+</div>
+<div class="card">
+<h3>📋 Alltagskurs</h3>
+<p>Als Team durch den Alltag! Kompetenz, Signale und Souveränität für den gemeinsamen Alltag.</p>
+<a href="/koeterlogie-complete/koeterlogie-complete/news/aktuelle-kurse/alltags-kurs/" class="btn" style="font-size:.85em;padding:8px 20px">Mehr erfahren</a>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div style="max-width:900px;margin:0 auto">
+<p><strong>Köterlogie® – Hunde verstehen, erziehen, trainieren</strong></p>
+<p>Sonja Müller · Amselweg 4 · 53797 Lohmar</p>
+<p>Tel: <a href="tel:+492246304881">02246 / 30 48 816</a> · Mobil: <a href="tel:+4915158423838">0151 / 58 42 38 38</a> · <a href="mailto:hallo@koeterlogie.de">hallo@koeterlogie.de</a></p>
+<div class="footer-links">
+<a href="/koeterlogie-complete/koeterlogie-complete/impressum/">Impressum</a>
+<a href="/koeterlogie-complete/koeterlogie-complete/datenschutz/">Datenschutz</a>
+<a href="/koeterlogie-complete/koeterlogie-complete/agb/">AGB</a>
+</div>
+<p style="margin-top:16px;font-size:.8em;opacity:.5">© 2026 Köterlogie® – Alle Rechte vorbehalten</p>
+</div>
+</footer>
+</body>
+</html>
